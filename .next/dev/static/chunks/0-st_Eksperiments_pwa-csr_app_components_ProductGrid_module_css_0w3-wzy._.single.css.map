@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Documents/Bakalaura darbs/Eksperiments/pwa-csr/app/components/ProductGrid.module.css"],"sourcesContent":[".main { max-width: 1200px; margin: 0 auto; padding: 40px 24px 80px; }\n.pageHeader { margin-bottom: 32px; }\n.heading {\n  font-family: 'DM Serif Display', serif;\n  font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 400;\n  color: var(--text-primary); letter-spacing: -0.02em;\n  line-height: 1.1; margin-bottom: 8px;\n}\n.meta { font-size: 0.85rem; color: var(--text-muted); }\n.grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));\n  gap: 20px;\n}\n@media (max-width: 480px) {\n  .main { padding: 24px 16px 60px; }\n  .grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }\n}\n"],"names":[],"mappings":"AAAA;;;;;;AACA;;;;AACA;;;;;;;;;;AAMA;;;;;AACA;;;;;;AAKA;EACE;;;;EACA"}}]
+}

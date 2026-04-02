@@ -1,0 +1,91 @@
+/* [project]/Documents/Bakalaura darbs/Eksperiments/pwa-csr/app/components/Header.module.css [app-client] (css) */
+.Header-module__schuAW__header {
+  z-index: 100;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  background: #f5f2edeb;
+  position: sticky;
+  top: 0;
+}
+
+.Header-module__schuAW__inner {
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  max-width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+}
+
+.Header-module__schuAW__brand {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.Header-module__schuAW__logo {
+  color: var(--text-primary);
+  letter-spacing: -.01em;
+  font-family: DM Serif Display, serif;
+  font-size: 1.25rem;
+}
+
+.Header-module__schuAW__badge {
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #f5f2ed;
+  background: #1a1814;
+  border-radius: 100px;
+  padding: 2px 8px;
+  font-size: .65rem;
+  font-weight: 600;
+}
+
+.Header-module__schuAW__badgeCSR {
+  background: var(--accent);
+  color: #fff;
+}
+
+.Header-module__schuAW__nav {
+  align-items: center;
+  display: flex;
+}
+
+.Header-module__schuAW__countLinks {
+  background: var(--border);
+  border-radius: 100px;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  display: flex;
+}
+
+.Header-module__schuAW__countLink {
+  color: var(--text-secondary);
+  border-radius: 100px;
+  padding: 4px 14px;
+  font-size: .8rem;
+  font-weight: 500;
+  transition: all .15s;
+}
+
+.Header-module__schuAW__countLink:hover {
+  color: var(--text-primary);
+}
+
+.Header-module__schuAW__countLink.Header-module__schuAW__active {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+@media (max-width: 480px) {
+  .Header-module__schuAW__inner {
+    padding: 0 16px;
+  }
+}
+
+/*# sourceMappingURL=0m4n_Bakalaura%20darbs_Eksperiments_pwa-csr_app_components_Header_module_css_0w3-wzy._.single.css.map*/

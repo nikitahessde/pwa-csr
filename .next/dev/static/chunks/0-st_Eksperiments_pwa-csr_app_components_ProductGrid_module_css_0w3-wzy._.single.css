@@ -1,0 +1,44 @@
+/* [project]/Documents/Bakalaura darbs/Eksperiments/pwa-csr/app/components/ProductGrid.module.css [app-client] (css) */
+.ProductGrid-module__h1mVUW__main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+.ProductGrid-module__h1mVUW__pageHeader {
+  margin-bottom: 32px;
+}
+
+.ProductGrid-module__h1mVUW__heading {
+  color: var(--text-primary);
+  letter-spacing: -.02em;
+  margin-bottom: 8px;
+  font-family: DM Serif Display, serif;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.ProductGrid-module__h1mVUW__meta {
+  color: var(--text-muted);
+  font-size: .85rem;
+}
+
+.ProductGrid-module__h1mVUW__grid {
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+  display: grid;
+}
+
+@media (max-width: 480px) {
+  .ProductGrid-module__h1mVUW__main {
+    padding: 24px 16px 60px;
+  }
+
+  .ProductGrid-module__h1mVUW__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}
+
+/*# sourceMappingURL=0-st_Eksperiments_pwa-csr_app_components_ProductGrid_module_css_0w3-wzy._.single.css.map*/

@@ -1,0 +1,179 @@
+/* [project]/Documents/Bakalaura darbs/Eksperiments/pwa-csr/app/components/ProductCard.module.css [app-client] (css) */
+.ProductCard-module__N0CcKq__card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  flex-direction: column;
+  transition: box-shadow .2s, transform .2s;
+  display: flex;
+  overflow: hidden;
+}
+
+.ProductCard-module__N0CcKq__card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.ProductCard-module__N0CcKq__imageWrap {
+  aspect-ratio: 4 / 3;
+  background: var(--accent-light);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ProductCard-module__N0CcKq__image {
+  object-fit: contain;
+  padding: 12px;
+  transition: transform .3s;
+}
+
+.ProductCard-module__N0CcKq__card:hover .ProductCard-module__N0CcKq__image {
+  transform: scale(1.04);
+}
+
+.ProductCard-module__N0CcKq__category {
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  background: #f5f2ede6;
+  border-radius: 100px;
+  padding: 3px 8px;
+  font-size: .65rem;
+  font-weight: 600;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.ProductCard-module__N0CcKq__body {
+  flex-direction: column;
+  flex: 1;
+  gap: 6px;
+  padding: 16px;
+  display: flex;
+}
+
+.ProductCard-module__N0CcKq__title {
+  color: var(--text-primary);
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-family: DM Serif Display, serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.ProductCard-module__N0CcKq__description {
+  color: var(--text-muted);
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  flex: 1;
+  font-size: .78rem;
+  line-height: 1.5;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.ProductCard-module__N0CcKq__footer {
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 8px;
+  margin-top: 12px;
+  display: flex;
+}
+
+.ProductCard-module__N0CcKq__priceRow {
+  align-items: center;
+  gap: 6px;
+  display: flex;
+}
+
+.ProductCard-module__N0CcKq__price {
+  color: var(--text-primary);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.ProductCard-module__N0CcKq__discount {
+  color: #fff;
+  background: var(--accent);
+  border-radius: 100px;
+  padding: 2px 6px;
+  font-size: .7rem;
+  font-weight: 600;
+}
+
+.ProductCard-module__N0CcKq__ratingRow {
+  align-items: center;
+  gap: 4px;
+  display: flex;
+}
+
+.ProductCard-module__N0CcKq__stars {
+  letter-spacing: -1px;
+  font-size: .7rem;
+}
+
+.ProductCard-module__N0CcKq__starFilled {
+  color: #e8a020;
+}
+
+.ProductCard-module__N0CcKq__starEmpty {
+  color: var(--border);
+}
+
+.ProductCard-module__N0CcKq__ratingNum {
+  color: var(--text-muted);
+  font-size: .72rem;
+  font-weight: 500;
+}
+
+/* [project]/Documents/Bakalaura darbs/Eksperiments/pwa-csr/app/components/ProductGrid.module.css [app-client] (css) */
+.ProductGrid-module__h1mVUW__main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+.ProductGrid-module__h1mVUW__pageHeader {
+  margin-bottom: 32px;
+}
+
+.ProductGrid-module__h1mVUW__heading {
+  color: var(--text-primary);
+  letter-spacing: -.02em;
+  margin-bottom: 8px;
+  font-family: DM Serif Display, serif;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.ProductGrid-module__h1mVUW__meta {
+  color: var(--text-muted);
+  font-size: .85rem;
+}
+
+.ProductGrid-module__h1mVUW__grid {
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+  display: grid;
+}
+
+@media (max-width: 480px) {
+  .ProductGrid-module__h1mVUW__main {
+    padding: 24px 16px 60px;
+  }
+
+  .ProductGrid-module__h1mVUW__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}
+
+/*# sourceMappingURL=Documents_Bakalaura%20darbs_Eksperiments_pwa-csr_app_components_04gtmwh._.css.map*/

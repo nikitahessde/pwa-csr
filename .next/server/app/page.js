@@ -1,0 +1,13 @@
+var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/app/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0ifdzpk._.js")
+R.c("server/chunks/ssr/0awd_next_dist_esm_build_templates_app-page_0.zb2kk.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0spyu21._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0bj~qwr._.js")
+R.c("server/chunks/ssr/Documents_Bakalaura darbs_Eksperiments_pwa-csr_app_layout_0s397f7.js")
+R.c("server/chunks/ssr/0awd_next_dist_client_components_085als8._.js")
+R.c("server/chunks/ssr/0awd_next_dist_client_components_builtin_forbidden_0juxek3.js")
+R.c("server/chunks/ssr/0awd_next_dist_client_components_builtin_unauthorized_10ar--0.js")
+R.c("server/chunks/ssr/0awd_next_dist_client_components_builtin_global-error_0sunx8j.js")
+R.c("server/chunks/ssr/0-st_Eksperiments_pwa-csr__next-internal_server_app_page_actions_09swfri.js")
+R.m(13179)
+module.exports=R.m(13179).exports

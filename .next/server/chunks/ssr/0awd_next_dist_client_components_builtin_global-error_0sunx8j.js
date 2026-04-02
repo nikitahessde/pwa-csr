@@ -1,0 +1,3 @@
+module.exports=[29692,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(48243);a.n(d("[project]/Documents/Bakalaura darbs/Eksperiments/pwa-csr/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},47125,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(48243);a.n(d("[project]/Documents/Bakalaura darbs/Eksperiments/pwa-csr/node_modules/next/dist/client/components/builtin/global-error.js"))},27871,a=>{"use strict";a.i(29692);var b=a.i(47125);a.n(b)},97043,a=>{a.n(a.i(27871))}];
+
+//# sourceMappingURL=0awd_next_dist_client_components_builtin_global-error_0sunx8j.js.map

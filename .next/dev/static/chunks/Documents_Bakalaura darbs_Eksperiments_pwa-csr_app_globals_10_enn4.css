@@ -1,0 +1,41 @@
+/* [project]/Documents/Bakalaura darbs/Eksperiments/pwa-csr/app/globals.css [app-client] (css) */
+:root {
+  --bg: #f5f2ed;
+  --bg-card: #fff;
+  --text-primary: #1a1814;
+  --text-secondary: #6b6560;
+  --text-muted: #a8a39d;
+  --accent: #c8602a;
+  --accent-light: #f0e6de;
+  --border: #e8e3dc;
+  --shadow-sm: 0 1px 3px #1a18140f;
+  --shadow-md: 0 4px 16px #1a181414;
+  --shadow-lg: 0 12px 40px #1a18141f;
+  --radius: 4px;
+  --radius-lg: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  min-height: 100vh;
+  font-family: DM Sans, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=Documents_Bakalaura%20darbs_Eksperiments_pwa-csr_app_globals_10_enn4.css.map*/

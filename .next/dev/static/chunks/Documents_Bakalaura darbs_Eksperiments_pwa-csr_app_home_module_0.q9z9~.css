@@ -1,0 +1,93 @@
+/* [project]/Documents/Bakalaura darbs/Eksperiments/pwa-csr/app/home.module.css [app-client] (css) */
+.home-module__fb2Xhq__wrap {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 24px;
+  display: flex;
+}
+
+.home-module__fb2Xhq__container {
+  width: 100%;
+  max-width: 420px;
+}
+
+.home-module__fb2Xhq__header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home-module__fb2Xhq__badge {
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 100px;
+  margin-bottom: 16px;
+  padding: 3px 12px;
+  font-size: .65rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.home-module__fb2Xhq__title {
+  color: var(--text-primary);
+  letter-spacing: -.02em;
+  margin-bottom: 10px;
+  font-family: DM Serif Display, serif;
+  font-size: clamp(2rem, 6vw, 2.8rem);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.home-module__fb2Xhq__subtitle {
+  color: var(--text-muted);
+  font-size: .85rem;
+}
+
+.home-module__fb2Xhq__links {
+  flex-direction: column;
+  gap: 10px;
+  display: flex;
+}
+
+.home-module__fb2Xhq__link {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  transition: box-shadow .15s, transform .15s;
+  display: flex;
+}
+
+.home-module__fb2Xhq__link:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.home-module__fb2Xhq__linkTitle {
+  color: var(--text-primary);
+  margin-bottom: 3px;
+  font-size: .95rem;
+  font-weight: 600;
+}
+
+.home-module__fb2Xhq__linkDesc {
+  color: var(--text-muted);
+  font-size: .78rem;
+}
+
+.home-module__fb2Xhq__arrow {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  transition: transform .15s, color .15s;
+}
+
+.home-module__fb2Xhq__link:hover .home-module__fb2Xhq__arrow {
+  color: var(--accent);
+  transform: translateX(4px);
+}
+
+/*# sourceMappingURL=Documents_Bakalaura%20darbs_Eksperiments_pwa-csr_app_home_module_0.q9z9~.css.map*/
