@@ -4,14 +4,8 @@ async function cacheFirst(request) {
   const cached = await caches.match(request);
   if (cached) return cached;
 
-  const plainRequest = new Request(request.url, {
-    method: request.method,
-    headers: new Headers({ 'Accept-Encoding': 'identity' }),
-    mode: 'cors',
-    credentials: request.credentials,
-  });
 
-  const response = await fetch(plainRequest);
+  const response = await fetch(request);
   
   if (response.ok && request.url.startsWith('http')) {
     const cache = await caches.open(CACHE_NAME);
