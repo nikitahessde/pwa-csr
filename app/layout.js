@@ -10,7 +10,6 @@ export default function RootLayout({ children }) {
     <html lang="lv">
       <head>
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#C8602A" />
       </head>
       <body>
         <script dangerouslySetInnerHTML={{ __html: `

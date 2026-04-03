@@ -1,4 +1,4 @@
-module.exports=[79996,a=>{"use strict";var b=a.i(95353);a.s(["default",0,function({children:a}){return(0,b.jsxs)("html",{lang:"lv",children:[(0,b.jsxs)("head",{children:[(0,b.jsx)("link",{rel:"manifest",href:"/manifest.json"}),(0,b.jsx)("meta",{name:"theme-color",content:"#C8602A"})]}),(0,b.jsxs)("body",{children:[(0,b.jsx)("script",{dangerouslySetInnerHTML:{__html:`
+module.exports=[79996,a=>{"use strict";var b=a.i(95353);a.s(["default",0,function({children:a}){return(0,b.jsxs)("html",{lang:"lv",children:[(0,b.jsxs)("head",{children:[(0,b.jsx)("link",{rel:"manifest",href:"/manifest.json"}),(0,b.jsx)("meta",{name:"theme-color",content:"#2F7ED8"})]}),(0,b.jsxs)("body",{children:[(0,b.jsx)("script",{dangerouslySetInnerHTML:{__html:`
           if ('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
               navigator.serviceWorker.register('/sw.js');

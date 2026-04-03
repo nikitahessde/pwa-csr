@@ -48,10 +48,10 @@
       "namedRegex": "^/10(?:/)?$"
     },
     {
-      "page": "/100",
-      "regex": "^/100(?:/)?$",
+      "page": "/150",
+      "regex": "^/150(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/100(?:/)?$"
+      "namedRegex": "^/150(?:/)?$"
     }
   ],
   "dataRoutes": [],

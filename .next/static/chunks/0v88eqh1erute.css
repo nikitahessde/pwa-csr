@@ -1,0 +1,2 @@
+@import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap";
+:root{--bg:#f7f7f7;--bg-card:#fff;--text-primary:#1f1f1f;--text-secondary:#555;--text-muted:#777;--accent:#2f7ed8;--border:#e5e5e5;--shadow-sm:0 1px 4px #0000000f}*{box-sizing:border-box;margin:0;padding:0}html{-webkit-font-smoothing:antialiased;font-size:16px}body{color:var(--text-primary);background:var(--bg);min-height:100vh;font-family:Manrope,sans-serif}a{color:inherit;text-decoration:none}
