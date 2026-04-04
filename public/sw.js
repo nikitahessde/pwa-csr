@@ -30,10 +30,7 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   if (request.method !== 'GET') return;
 
-  const isStaticNextAsset = url.pathname.startsWith('/_next/static/');
-  const isStyleOrScript = request.destination === 'style' || request.destination === 'script';
-
-  if (isStaticNextAsset || isStyleOrScript) {
+  if (url.pathname.startsWith('/_next/static/')) {
     event.respondWith(cacheFirst(request));
   }
 });

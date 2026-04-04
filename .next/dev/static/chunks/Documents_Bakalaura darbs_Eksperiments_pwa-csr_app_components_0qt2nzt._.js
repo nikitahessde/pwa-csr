@@ -287,21 +287,21 @@ function CSRPage({ productCount }) {
             fetch(`https://dummyjson.com/products?limit=${productCount}&select=id,title,description,price,thumbnail,rating,discountPercentage,category`).then({
                 "CSRPage.useEffect": (res)=>res.json()
             }["CSRPage.useEffect"]).then({
-                "CSRPage.useEffect": (data)=>setProducts(data.products)
+                "CSRPage.useEffect": (data)=>{
+                    setProducts(data.products);
+                }
             }["CSRPage.useEffect"]);
         }
     }["CSRPage.useEffect"], [
         productCount
     ]);
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Bakalaura__darbs$2f$Eksperiments$2f$pwa$2d$csr$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Bakalaura__darbs$2f$Eksperiments$2f$pwa$2d$csr$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
-        children: products.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Bakalaura__darbs$2f$Eksperiments$2f$pwa$2d$csr$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Bakalaura__darbs$2f$Eksperiments$2f$pwa$2d$csr$2f$app$2f$components$2f$ProductGrid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            products: products
-        }, void 0, false, {
-            fileName: "[project]/Documents/Bakalaura darbs/Eksperiments/pwa-csr/app/components/CSRPage.js",
-            lineNumber: 19,
-            columnNumber: 31
-        }, this)
-    }, void 0, false);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Bakalaura__darbs$2f$Eksperiments$2f$pwa$2d$csr$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Bakalaura__darbs$2f$Eksperiments$2f$pwa$2d$csr$2f$app$2f$components$2f$ProductGrid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+        products: products
+    }, void 0, false, {
+        fileName: "[project]/Documents/Bakalaura darbs/Eksperiments/pwa-csr/app/components/CSRPage.js",
+        lineNumber: 20,
+        columnNumber: 7
+    }, this);
 }
 _s(CSRPage, "f86L6rLANGURv6GE6gupp7+oOp4=");
 _c = CSRPage;
