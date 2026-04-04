@@ -1,3 +1,5 @@
+'use client';
+
 import ProductCard from './ProductCard';
 import styles from './ProductGrid.module.css';
 

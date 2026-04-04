@@ -1,7 +1,7 @@
 {
-  "name": "Produktu Katalogs CSR",
-  "short_name": "Katalogs CSR",
-  "description": "Klienta puses renderēšana - Next.js PTL",
+  "name": "Produktu Katalogs RKP",
+  "short_name": "Katalogs RKP",
+  "description": "Klienta puses renderēšana",
   "start_url": "/10",
   "display": "standalone",
   "background_color": "white",
